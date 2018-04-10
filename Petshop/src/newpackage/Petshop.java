@@ -50,7 +50,7 @@ public class Petshop {
            String rg = Console.scanString("Rg: ");
            String telefone = Console.scanString("Telefone: ");
            
-           Cliente clientes = new Cliente(nome, rg, telefone);
+           Cliente cliente = new Cliente(nome, rg, telefone);
             RepositorioClientes.getInstance().add(cliente);
             System.out.println("Cliente cadastrado com sucesso");
       
@@ -58,7 +58,7 @@ public class Petshop {
 
     private static void listarClientes() {
         System.out.println("Listando Clientes...");
-        if(RepositorioClientes.getInstance().getCliente()){
+        if(RepositorioClientes.getInstance().getClientes()){
             System.out.println("Não há clientes cadastrados");
         }
         else{
@@ -66,7 +66,7 @@ public class Petshop {
             System.out.print(String.format("%-10s","|RG"));
             System.out.print(String.format("%-10s","|TELEFONE"));
             
-         for(Cliente c : RepositorioClientes.getInstance().getCliente()) {
+         for(Cliente c : RepositorioClientes.getInstance().getClientes()) {
              System.out.print(String.format("%-20s",c.getNome()));
              System.out.print(String.format("%-10s",c.getRg()));
              System.out.print(String.format("%-20s",c.getTelefone()));
