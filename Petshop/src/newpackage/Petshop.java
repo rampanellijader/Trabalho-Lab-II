@@ -58,7 +58,7 @@ public class Petshop {
 
     private static void listarClientes() {
         System.out.println("Listando Clientes...");
-        if(RepositorioClientes.getInstance().getClientes()){
+        if(RepositorioClientes.getInstance().estaVazio()){
             System.out.println("Não há clientes cadastrados");
         }
         else{
