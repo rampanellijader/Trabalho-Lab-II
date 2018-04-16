@@ -54,7 +54,7 @@ public class Cliente {
 
     
     public String toString(){
-        return nome + "-" + rg +"  " + telefone;
+        return rg + "-" + nome +"-" + telefone;
         
     }
     

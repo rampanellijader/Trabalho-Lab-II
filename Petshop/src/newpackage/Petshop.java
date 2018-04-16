@@ -69,7 +69,7 @@ public class Petshop {
          for(Cliente c : RepositorioClientes.getInstance().getClientes()) {
              System.out.print(String.format("%-20s",c.getNome()));
              System.out.print(String.format("%-10s",c.getRg()));
-             System.out.print(String.format("%-20s",c.getTelefone()));
+             System.out.print(String.format("%-10s",c.getTelefone()));
              
          }
     }  

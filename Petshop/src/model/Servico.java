@@ -38,7 +38,7 @@ public class Servico {
       return nr_servico +" - "+ nm_servico +" - " +tp_atendimento+ " R$ "+preco;   
     }
   
-      private int generateCodigo() {
+      public int generateCodigo() {
         return (cd_servico++);
     }
 

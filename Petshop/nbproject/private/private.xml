@@ -3,12 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Petshop/src/repositorio/RepositorioClientes.java</file>
-            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Petshop/src/model/VendaServicos.java</file>
-            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Petshop/src/model/Cliente.java</file>
-            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Petshop/src/model/Pets.java</file>
-            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Petshop/src/newpackage/Petshop.java</file>
-            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Petshop/src/model/Servicos.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/repositorio/RepositorioServicos.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/View/CienteUi.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/View/PetUi.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/model/Servico.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/ViewMenu/ClienteMenu.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/repositorio/RepositorioClientes.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/ViewMenu/PetMenu.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/ViewMenu/MainMenu.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/model/Pet.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/newpackage/Petshop.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/View/MainUI.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/repositorio/RepositorioPet.java</file>
+            <file>file:/C:/Users/Jader/Documents/NetBeansProjects/Trabalho-Lab-II/Petshop/src/model/Cliente.java</file>
         </group>
     </open-files>
 </project-private>

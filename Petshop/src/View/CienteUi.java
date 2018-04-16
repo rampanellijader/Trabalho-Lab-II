@@ -51,10 +51,11 @@ public class CienteUi {
             System.out.println("-----------------------------\n");
             System.out.println(String.format("%-10s", "RG") + "\t"
                     + String.format("%-20s", "|NOME") + "\t"
-                    + String.format("%-20s", "|TELEFONE"));
+                    + String.format("%-10s", "|TELEFONE"));
             for (Cliente cliente : RepositorioClientes.getInstance().getClientes()) {
                 System.out.println(String.format("%-10s", cliente.getRg()) + "\t"
-                        + String.format("%-20s", "|" + cliente.getNome()));
+                        + String.format("%-20s", "|" + cliente.getNome()) +"\t"
+                        + String.format("%-20s", "|" + cliente.getTelefone()));
     }
 }
     }
